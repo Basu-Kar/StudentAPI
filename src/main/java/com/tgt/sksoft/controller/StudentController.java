@@ -12,9 +12,9 @@ public class StudentController {
     private StudentService studentService;
 
     @GetMapping("/students/{student_id}")
-    public Student getStudent(Long studentId){
+    public Student getStudent(@PathVariable("student_id") Long studentId){
 
-        return studentService.getStudent(1L);
+        return studentService.getStudent(studentId);
     }
 
     @PostMapping("/students")
