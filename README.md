@@ -25,3 +25,8 @@ spring:
     Step-1: Install IntelliJ Plugin
     Step-2: Enable IntelliJ Annotation Processor : File -> Settings -> Build, Execution & Deployment -> Compiler -> Annotation Processor
 
+4. logback
+    Logback has already been included as part of springboot starter project. If you want to override default springboot logback configuration then there are two ways:
+    a) If you think your overriden settings are simple then you can add them in application.properties
+    b) If setting changes are complex then you need to create an xml file(logback.xml or logback-spring.xml) in root of the classpath or grovy file.
+    https://dzone.com/articles/configuring-logback-with-spring-boot

@@ -20,3 +20,11 @@ spring:
         url: jdbc:postgresql://localhost:5432/postgres
         username: postgres
         password: postgres
+
+
+
+#logback configuration
+#logging.level.org.springframework.web=INFO
+#logging.level.guru.springframework.controllers=DEBUG
+#logging.level.org.hibernate=ERROR
+#logging.file=logs/spring-boot-logging.log
