@@ -1,6 +1,6 @@
 package com.tgt.sksoft.service;
 
-import com.tgt.sksoft.StudentDTO;
+import com.tgt.sksoft.dto.StudentDTO;
 import com.tgt.sksoft.exception.RecordNotFoundException;
 import com.tgt.sksoft.mapper.SelmaMapper;
 import com.tgt.sksoft.model.Student;
@@ -9,8 +9,6 @@ import fr.xebia.extras.selma.Selma;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 @Service
 @Slf4j

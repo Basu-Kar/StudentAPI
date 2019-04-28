@@ -1,7 +1,12 @@
 package com.tgt.sksoft.exception;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 
+@Getter
+@Setter
 public class ErrorResponse {
 
     public ErrorResponse(String message, List<String> details) {

@@ -1,4 +1,4 @@
-package com.tgt.sksoft;
+package com.tgt.sksoft.dto;
 
 import lombok.*;
 
