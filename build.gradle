@@ -31,7 +31,11 @@ dependencies {
 
     compile 'fr.xebia.extras:selma-processor:1.0'
     compile 'fr.xebia.extras:selma:1.0'
-    
+
+    compile("org.springframework.boot:spring-boot-starter-actuator")
+    compile 'io.micrometer:micrometer-registry-prometheus'
+
+
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

@@ -30,3 +30,6 @@ spring:
     a) If you think your overriden settings are simple then you can add them in application.properties
     b) If setting changes are complex then you need to create an xml file(logback.xml or logback-spring.xml) in root of the classpath or grovy file.
     https://dzone.com/articles/configuring-logback-with-spring-boot
+
+5. Prometheus Configuration
+    https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04

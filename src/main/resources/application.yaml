@@ -28,3 +28,10 @@ spring:
 #logging.level.guru.springframework.controllers=DEBUG
 #logging.level.org.hibernate=ERROR
 #logging.file=logs/spring-boot-logging.log
+
+#This enables all actuator prometheus endpoints
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
