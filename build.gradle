@@ -29,11 +29,11 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.6'
     annotationProcessor 'org.projectlombok:lombok:1.18.6'
 
-    compile 'fr.xebia.extras:selma-processor:1.0'
-    compile 'fr.xebia.extras:selma:1.0'
-
     compile("org.springframework.boot:spring-boot-starter-actuator")
     compile 'io.micrometer:micrometer-registry-prometheus'
+
+    compile 'fr.xebia.extras:selma-processor:1.0'
+    compile 'fr.xebia.extras:selma:1.0'
 
 
     testCompile('org.springframework.boot:spring-boot-starter-test')

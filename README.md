@@ -33,3 +33,6 @@ spring:
 
 5. Prometheus Configuration
     https://www.digitalocean.com/community/tutorials/how-to-install-prometheus-on-ubuntu-16-04
+
+6. Grafana Installation
+7. Spring Cloud Sleuth
