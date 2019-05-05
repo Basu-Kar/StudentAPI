@@ -36,3 +36,14 @@ spring:
 
 6. Grafana Installation
 7. Spring Cloud Sleuth
+
+8. Swagger  - Add below dependency
+    compile 'io.springfox:springfox-swagger2:2.9.2'
+    Enable Swagger using @EnableSwagger2
+
+After this you can access to view the JSON of all you apis exposed : http://localhost:8080/v2/api-docs
+
+9. Enable Swagger UI - Add below dependency
+    compile 'io.springfox:springfox-swagger-ui:2.9.2'
+
+You can access UI of your swagger specification using URL: http://localhost:8080/swagger-ui.html
