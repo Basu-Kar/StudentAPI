@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b4d56b-a50f-42bf-8dc5-6c286644de39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/dto/AddressDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/mapper/MapstructMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/data-hsqldb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/files/schema-hsqldb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-unit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerMockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerPureMockUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerRandomPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerWebMvcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/repository/StudentRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema-hsqldb.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/configuration/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/configuration/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/dto/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/dto/StudentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/exception/RecordNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/exception/RecordNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/mapper/SelmaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/mapper/SelmaMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tgt/sksoft/service/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/files/schema-hsqldb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/files/schema-hsqldb.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerMockTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,25 +56,25 @@
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="57" />
+          <entry key="java" value="66" />
           <entry key="md" value="1" />
           <entry key="properties" value="3" />
-          <entry key="sql" value="2" />
+          <entry key="sql" value="7" />
           <entry key="xml" value="1" />
           <entry key="yaml" value="3" />
-          <entry key="yml" value="3" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="57" />
+          <entry key="JAVA" value="66" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="3" />
-          <entry key="SQL" value="2" />
+          <entry key="SQL" value="7" />
           <entry key="XML" value="1" />
-          <entry key="YAML" value="6" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -98,8 +82,9 @@
           <entry key="dummy" value="10" />
           <entry key="gitignore" value="29" />
           <entry key="gradle" value="180" />
-          <entry key="java" value="2622" />
+          <entry key="java" value="2920" />
           <entry key="md" value="1512" />
+          <entry key="sql" value="57" />
           <entry key="xml" value="7" />
           <entry key="yaml" value="390" />
           <entry key="yml" value="19" />
@@ -108,8 +93,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="180" />
-          <entry key="JAVA" value="2622" />
+          <entry key="JAVA" value="2920" />
           <entry key="PLAIN_TEXT" value="1551" />
+          <entry key="SQL" value="57" />
           <entry key="XML" value="7" />
           <entry key="YAML" value="409" />
         </counts>
@@ -121,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="666">
               <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -131,57 +117,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerRandomPort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/dto/StudentDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="362">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerPureMockUnitTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/schema-hsqldb.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/service/StudentServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
+            <state relative-caret-position="18">
+              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerWebMvcTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/repository/StudentRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1361#1362#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerMockTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="48" column="41" lean-forward="true" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+            <state relative-caret-position="452">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,6 +161,8 @@
     <findStrings>
       <find>profil</find>
       <find>profi</find>
+      <find>s</find>
+      <find>schema-hs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -573,6 +532,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerPureMockUnitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerWebMvcTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerMockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/files/schema-hsqldb.sql" />
+        <option value="$PROJECT_DIR$/src/test/resources/data.sql" />
+        <option value="$PROJECT_DIR$/src/test/resources/schema-hsqldb.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tgt/sksoft/repository/StudentRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -639,6 +602,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sksoft" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sksoft" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -649,6 +621,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sksoft" type="462c0819:PsiDirectoryNode" />
               <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sksoft" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="StudentAPI" type="b2602c69:ProjectViewProjectNode" />
@@ -682,6 +663,14 @@
               <item name="StudentAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -703,7 +692,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="sksoft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sksoft" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentAPI" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -729,6 +734,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tgt.sksoft.controller" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -748,7 +756,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentControllerMockTest.createStudentTest">
+  <component name="RunManager" selected="JUnit.StudentRepositoryTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -761,7 +769,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentControllerMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentControllerMockTest.studentNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentAPI_test" />
       <extension name="coverage">
         <pattern>
@@ -771,70 +779,74 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.tgt.sksoft.controller" />
       <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.controller.StudentControllerMockTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentControllerMockTest.createStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentAPI_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tgt.sksoft.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tgt.sksoft.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.controller.StudentControllerMockTest" />
-      <option name="METHOD_NAME" value="createStudentTest" />
+      <option name="METHOD_NAME" value="studentNotFoundTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentControllerPureMockUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentAPI_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tgt.sksoft.controller.*" />
+          <option name="PATTERN" value="com.tgt.sksoft.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tgt.sksoft.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.controller.StudentControllerPureMockUnitTest" />
+      <option name="PACKAGE_NAME" value="com.tgt.sksoft.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.repository.StudentRepositoryTest" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentControllerPureMockUnitTest.canRetrieveByIdWhenExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentRepositoryTest.getAllStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentAPI_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tgt.sksoft.controller.*" />
+          <option name="PATTERN" value="com.tgt.sksoft.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tgt.sksoft.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.controller.StudentControllerPureMockUnitTest" />
-      <option name="METHOD_NAME" value="canRetrieveByIdWhenExists" />
+      <option name="PACKAGE_NAME" value="com.tgt.sksoft.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="getAllStudentTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentControllerWebMvcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentRepositoryTest.getStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentAPI_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tgt.sksoft.controller.*" />
+          <option name="PATTERN" value="com.tgt.sksoft.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tgt.sksoft.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.controller.StudentControllerWebMvcTest" />
+      <option name="PACKAGE_NAME" value="com.tgt.sksoft.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="getStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentRepositoryTest.getStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentAPI_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tgt.sksoft.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tgt.sksoft.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.tgt.sksoft.repository.StudentRepositoryTest" />
+      <option name="METHOD_NAME" value="getStudentTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -864,19 +876,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentControllerPureMockUnitTest.canRetrieveByIdWhenExists" />
-      <item itemvalue="JUnit.StudentControllerPureMockUnitTest" />
-      <item itemvalue="JUnit.StudentControllerWebMvcTest" />
-      <item itemvalue="JUnit.StudentControllerMockTest" />
-      <item itemvalue="JUnit.StudentControllerMockTest.createStudentTest" />
+      <item itemvalue="JUnit.StudentControllerMockTest.studentNotFoundTest" />
+      <item itemvalue="JUnit.StudentRepositoryTest.getStudent" />
+      <item itemvalue="JUnit.StudentRepositoryTest.getAllStudentTest" />
+      <item itemvalue="JUnit.StudentRepositoryTest" />
+      <item itemvalue="JUnit.StudentRepositoryTest.getStudentTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentControllerMockTest.createStudentTest" />
-        <item itemvalue="JUnit.StudentControllerMockTest" />
-        <item itemvalue="JUnit.StudentControllerWebMvcTest" />
-        <item itemvalue="JUnit.StudentControllerPureMockUnitTest" />
-        <item itemvalue="JUnit.StudentControllerPureMockUnitTest.canRetrieveByIdWhenExists" />
+        <item itemvalue="JUnit.StudentRepositoryTest" />
+        <item itemvalue="JUnit.StudentRepositoryTest.getStudentTest" />
+        <item itemvalue="JUnit.StudentRepositoryTest.getAllStudentTest" />
+        <item itemvalue="JUnit.StudentRepositoryTest.getStudent" />
+        <item itemvalue="JUnit.StudentControllerMockTest.studentNotFoundTest" />
       </list>
     </recent_temporary>
   </component>
@@ -894,35 +906,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentControllerWebMvcTest_createStudentTest - 2019.05.18 at 23h 11m 17s.xml">
-      <configuration name="StudentControllerWebMvcTest.createStudentTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getStudentTest - 2019.05.19 at 15h 34m 10s.xml">
+      <configuration name="StudentRepositoryTest.getStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerWebMvcTest_createStudentTest - 2019.05.18 at 23h 11m 52s.xml">
-      <configuration name="StudentControllerWebMvcTest.createStudentTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getStudentTest - 2019.05.19 at 15h 34m 48s.xml">
+      <configuration name="StudentRepositoryTest.getStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerWebMvcTest - 2019.05.19 at 05h 09m 36s.xml">
-      <configuration name="StudentControllerWebMvcTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getAllStudentTest - 2019.05.19 at 15h 35m 23s.xml">
+      <configuration name="StudentRepositoryTest.getAllStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerPureMockUnitTest - 2019.05.19 at 05h 13m 38s.xml">
-      <configuration name="StudentControllerPureMockUnitTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getAllStudentTest - 2019.05.19 at 15h 36m 13s.xml">
+      <configuration name="StudentRepositoryTest.getAllStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerPureMockUnitTest_canRetrieveByIdWhenExists - 2019.05.19 at 05h 14m 20s.xml">
-      <configuration name="StudentControllerPureMockUnitTest.canRetrieveByIdWhenExists" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getAllStudentTest - 2019.05.19 at 15h 36m 27s.xml">
+      <configuration name="StudentRepositoryTest.getAllStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerPureMockUnitTest - 2019.05.19 at 05h 15m 04s.xml">
-      <configuration name="StudentControllerPureMockUnitTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getAllStudentTest - 2019.05.19 at 15h 36m 44s.xml">
+      <configuration name="StudentRepositoryTest.getAllStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerPureMockUnitTest - 2019.05.19 at 05h 15m 50s.xml">
-      <configuration name="StudentControllerPureMockUnitTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getStudentTest - 2019.05.19 at 16h 56m 16s.xml">
+      <configuration name="StudentRepositoryTest.getStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerWebMvcTest - 2019.05.19 at 05h 19m 29s.xml">
-      <configuration name="StudentControllerWebMvcTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getStudentTest - 2019.05.19 at 16h 59m 21s.xml">
+      <configuration name="StudentRepositoryTest.getStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerMockTest - 2019.05.19 at 05h 25m 51s.xml">
-      <configuration name="StudentControllerMockTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest_getStudentTest - 2019.05.19 at 16h 59m 46s.xml">
+      <configuration name="StudentRepositoryTest.getStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentControllerMockTest_createStudentTest - 2019.05.19 at 05h 26m 28s.xml">
-      <configuration name="StudentControllerMockTest.createStudentTest" configurationId="JUnit" />
+    <history-entry file="StudentRepositoryTest - 2019.05.19 at 17h 01m 19s.xml">
+      <configuration name="StudentRepositoryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -984,6 +996,24 @@
           <line>28</line>
           <properties />
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/aop/StudentExceptionHandler.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/repository/StudentRepositoryTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/repository/StudentRepositoryTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1048,27 +1078,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/exception/RecordNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/exception/ErrorResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/aop/StudentExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/configuration/BeanConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/model/Student.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1126,22 +1135,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/dto/StudentDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" selection-start-line="3" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/files/schema-hsqldb.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/files/data-hsqldb.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1150,13 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-unit.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1233,16 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/service/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -1252,28 +1234,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerPureMockUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="183">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/exception/RecordNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/exception/ErrorResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerRandomPort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="579">
           <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerMockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="48" column="41" lean-forward="true" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1282,12 +1271,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerWebMvcTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
+        <state relative-caret-position="1044">
           <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/controller/StudentControllerMockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-9-oracle/lib/src.zip!/java.base/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/files/schema-hsqldb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/dto/StudentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-unit.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tgt/sksoft/aop/StudentExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schema-hsqldb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tgt/sksoft/repository/StudentRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

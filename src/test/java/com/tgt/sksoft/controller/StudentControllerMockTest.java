@@ -68,4 +68,11 @@ public class StudentControllerMockTest {
         .andExpect(status().isOk());
 
     }
+
+    @Test
+    public void studentNotFoundTest() throws Exception {
+        mockMvc.perform(MockMvcRequestBuilders.get(API_VERSION+"students/4")).andDo(print())
+                .andExpect(status().isNotFound());
+
+    }
 }
