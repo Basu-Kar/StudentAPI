@@ -28,4 +28,6 @@ public class StudentDTO {
 
     @Column(name = "roll_number")
     private Integer rollNumber;
+
+    //private AddressDTO addressDTO;
 }
