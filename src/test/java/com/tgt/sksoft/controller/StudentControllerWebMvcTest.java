@@ -22,7 +22,10 @@ import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 /**
+ * @WebMvcTest @WebMvcTest is used t o test only the MVC with Spring Boot is only instantiating the web layer, not the whole context.
+ * In an application with multiple controllers you can even ask for just one to be instantiated, using, for example @WebMvcTest(StudentController.class)
  * Spring Boot is only instantiating the web layer, not the whole context.
+ * @MockBean to create and inject a mock for the
  */
 @RunWith(SpringRunner.class)
 @WebMvcTest(StudentController.class)

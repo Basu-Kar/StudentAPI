@@ -3,10 +3,11 @@ package com.tgt.sksoft.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import com.tgt.sksoft.model.Student;
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.runner.RunWith;
+
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
@@ -18,7 +19,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import static com.tgt.sksoft.common.Constants.API_VERSION;
 
-@RunWith(SpringRunner.class)//This is for Junit 4
+/**
+ * webEnvironment=RANDOM_PORT to start the server with a random port and the injection of the port with @LocalServerPort
+ * Spring Boot has provided a TestRestTemplate for you automatically, and all you have to do is @Autowired it.
+ *
+ */
+
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Profile("unit")
 @ActiveProfiles("unit")
@@ -48,8 +54,8 @@ public class StudentControllerRandomPort {
         String body = mapper.writeValueAsString(student);
 
         ResponseEntity<String> result = this.restTemplate.postForEntity(API_VERSION+"students",student,String.class);
-        Assert.assertEquals(201, result.getStatusCodeValue());
-        Assert.assertEquals(true, result.getBody().contains("Basu"));
+        Assertions.assertEquals(201, result.getStatusCodeValue());
+        Assertions.assertEquals(true, result.getBody().contains("Basu"));
     }
 
 
